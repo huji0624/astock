@@ -8,3 +8,6 @@
 
 
 看深市股票：python astock.py sz000231
+
+
+一次看多支股票：python astock.py sh600320 sz000231
