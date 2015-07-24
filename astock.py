@@ -1,3 +1,4 @@
+#!/usr/bin/python
 # -*- coding:utf8 -*- 
 
 def parseRes(res):
@@ -27,7 +28,7 @@ def outPutDatalist(datas):
 	for data in datas:
 		yc = float(data['yescloseprice'])
 		pri = float(data['price'])
-		print "%s %1.2f%%" % (data['name'],(pri-yc)/yc*100)
+		print "%s %.2f %1.2f%%" % (data['name'],pri,(pri-yc)/yc*100)
 
 import sys
 if len(sys.argv)<=1:
